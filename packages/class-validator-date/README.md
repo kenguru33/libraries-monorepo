@@ -10,7 +10,7 @@ class CreateBillDto {
   productName: string,
   @IsDateBefore('paymentDate')
   orderDate: string,
-  @IsDateBefore('orderDate)
+  @IsDateBefore('orderDate')
   paymentDate: string,
 }
 
