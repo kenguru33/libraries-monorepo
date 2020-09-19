@@ -2,21 +2,21 @@
 
 Custom class-validator for date values.
 
-## usage
+## usage:
 
 ```bash
-class Bill {
+class CreateBillDto {
+  @IsString()
   productName: string,
-  @Datebefore('paymentDate')
+  @IsDateBefore('paymentDate')
   orderDate: string,
+  @IsDateBefore('orderDate)
   paymentDate: string,
-
 }
 
-const bill = new bill(createBillDto: CreateBillDto);
-const error = validate(bill);
+const createBillDto = new bill();
+const error = validate(createBillDto);
 if (error.length > 0) {
   console.log(error)
 }
-
 ```
