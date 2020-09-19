@@ -1,2 +1,2 @@
-import { IsAfterDate } from './lib/is-after-date';
-import { IsBeforeDate } from './lib/is-before-date';
+export * from './lib/is-after-date';
+export * from './lib/is-before-date';
