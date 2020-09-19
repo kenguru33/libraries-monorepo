@@ -1,0 +1,7 @@
+36 error Error: Command failed: git tag class-validator-date@1.0.1 -m class-validator-date@1.0.1
+36 error fatal: tag 'class-validator-date@1.0.1' already exists
+36 error
+36 error     at makeError (/home/bernt/.nvm/versions/node/v12.17.0/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
+36 error     at /home/bernt/.nvm/versions/node/v12.17.0/lib/node_modules/lerna/node_modules/execa/index.js:278:16
+36 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+36 error     at async Promise.all (index 0)
