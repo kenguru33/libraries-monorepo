@@ -1,0 +1,30 @@
+{
+  "name": "class-validator-date",
+  "version": "1.0.0",
+  "description": "Validates date before and after",
+  "main": "./dist",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "validator",
+    "date",
+    "class-validator"
+  ],
+  "author": "Bernt Anker",
+  "license": "ISC",
+  "peerDependencies": {
+    "class-validator": "^0.12.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "moment": "^2.28.0"
+  }
+}
