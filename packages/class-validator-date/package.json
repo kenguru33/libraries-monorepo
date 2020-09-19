@@ -1,6 +1,6 @@
 {
   "name": "class-validator-date",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Validates date before and after",
   "main": "./dist",
   "types": "./dist/index.d.ts",
