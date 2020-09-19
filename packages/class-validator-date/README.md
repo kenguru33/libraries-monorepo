@@ -14,9 +14,11 @@ class CreateBillDto {
   paymentDate: string,
 }
 
+// validate Object
 const createBillDto = new bill();
 const error = validate(createBillDto);
 if (error.length > 0) {
   console.log(error)
 }
+
 ```
