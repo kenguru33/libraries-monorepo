@@ -18,7 +18,7 @@ class CreateBillDto {
 
 // validate Object
 const createBillDto = new bill();
-const error = validate(createBillDto);
+const error = await validate(createBillDto);
 if (error.length > 0) {
   console.log(error)
 }
