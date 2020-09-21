@@ -24,5 +24,6 @@
   },
   "devDependencies": {
     "del-cli": "^3.0.1"
-  }
+  },
+  "gitHead": "fe653b844743b6ff53596465d8eece38a1f3004d"
 }
