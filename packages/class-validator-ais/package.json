@@ -1,0 +1,28 @@
+{
+  "name": "@redningsselskapet/class-validator-ais",
+  "version": "1.0.0",
+  "description": "Custom Class Validator for automatic identification system",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "clean": "del ./build/*",
+    "build": "npm run clean && tsc"
+  },
+  "keywords": [
+    "class-validator",
+    "validate",
+    "ais"
+  ],
+  "author": "Bernt Anker",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.11.1",
+    "class-validator": "^0.12.2"
+  },
+  "devDependencies": {
+    "del-cli": "^3.0.1"
+  }
+}
