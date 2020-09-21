@@ -10,8 +10,10 @@ class CreateBillDto {
   productName: string,
   @IsDateBefore('paymentDate')
   orderDate: string,
-  @IsDateBefore('orderDate')
+  @IsDateAfter('orderDate')
   paymentDate: string,
+  @isDateBefore('1972-03-28T23:11:00')
+  birth: string;
 }
 
 // validate Object
