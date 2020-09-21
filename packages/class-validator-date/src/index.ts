@@ -1,13 +1,14 @@
-import { ValidationOptions } from 'class-validator/types/decorator/ValidationOptions';
-import { registerDecorator } from 'class-validator/types/register-decorator';
-import { ValidationArguments } from 'class-validator/types/validation/ValidationArguments';
-import moment from 'moment';
-
+import {
+  ValidationOptions,
+  registerDecorator,
+  ValidationArguments,
+} from 'class-validator';
+import * as moment from 'moment';
 export function IsAfterDate(
   property: string,
-  validationOptions?: ValidationOptions
+  validationOptions?: ValidationOptions,
 ) {
-  return function (object: Object, propertyName: string) {
+  return function(object: Object, propertyName: string) {
     registerDecorator({
       name: 'isAfterDate',
       target: object.constructor,
@@ -35,9 +36,9 @@ export function IsAfterDate(
 
 export function IsBeforeDate(
   property: string,
-  validationOptions?: ValidationOptions
+  validationOptions?: ValidationOptions,
 ) {
-  return function (object: Object, propertyName: string) {
+  return function(object: Object, propertyName: string) {
     registerDecorator({
       name: 'isBeforeDate',
       target: object.constructor,
