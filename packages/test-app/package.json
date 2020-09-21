@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@redningsselskapet/class-validator-ais": "^1.0.0",
     "class-validator": "^0.12.2",
     "class-validator-date": "^1.0.12",
     "del-cli": "^3.0.1",
