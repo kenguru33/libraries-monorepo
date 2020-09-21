@@ -17,8 +17,8 @@ class AisdataDto {
 }
 
 // validate Object
-const creatAisDto = new AisdataDto()
-const error = await validate(createBillDto);
+const creatAisdataDto = new AisdataDto();
+const error = await validate(createAisdataDto);
 if (error.length > 0) {
   console.log(error)
 }
