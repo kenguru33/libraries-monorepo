@@ -1,6 +1,6 @@
 {
   "name": "test-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": "true",
   "description": "",
   "main": "dist/",
@@ -13,9 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@redningsselskapet/class-validator-ais": "^1.0.0",
+    "@redningsselskapet/class-validator-ais": "^1.0.1",
     "class-validator": "^0.12.2",
-    "class-validator-date": "^1.0.12",
+    "class-validator-date": "^1.0.14",
     "del-cli": "^3.0.1",
     "moment": "^2.28.0"
   },
