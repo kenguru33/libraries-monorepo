@@ -1,6 +1,6 @@
 # Description
 
-Custom class-validator for date values.
+Custom class-validator for date values. Do validate before and after date value.
 
 ## usage:
 
