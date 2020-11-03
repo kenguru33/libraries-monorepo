@@ -4,6 +4,10 @@
   "description": "Custom Class Validator for automatic identification system",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenguru33/libraries-monorepo"
+  },
   "files": [
     "dist/**/*"
   ],
